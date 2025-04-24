@@ -7,7 +7,7 @@ APP_NAME="product-catalogue"
 APP_DIR="$HOME/apps"
 
 echo ">>> Installing packages"
-bash /tmp/react-files/package-install.sh
+bash /tmp/react-files/package_install.sh
 ### Create React App Folders ### mkdir -p SAPP_DIR
 cd $APP_DIR
 
@@ -20,10 +20,10 @@ npx tailwindcss init -p
 
 #### Config Tailwind ### 
 echo ">>> Configuring Tailwind"
-bash /tmp/react-files/tailwind-config.sh
+bash /tmp/react-files/tailwind_config.sh
 
 #### Create App-jsx ### echo "›»> Creating Application"
-cp / tmp/react-files/App-jsx. template src/App. jsx
+cp / tmp/react-files/App.jsx.template src/App. jsx
 
 ### Move Images###
 echo ">»> Creating Image Files"
